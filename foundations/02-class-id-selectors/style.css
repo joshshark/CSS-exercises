@@ -1,0 +1,19 @@
+.oddnumber {
+    background-color: hsl(350, 100%, 81%);
+    font-family: verdana, sans-serif;
+}
+
+.three {
+    font-size: 24px;
+}
+
+.second {
+    color:hsl(217, 100%, 50%);
+    font-size: 36px;    
+}
+
+.fourth {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: hsl(120, 73%, 75%);
+}
