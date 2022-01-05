@@ -1,0 +1,13 @@
+.me1 {
+    background-color: black;
+    color: white;
+    }
+
+.me2 {
+    background-color: yellow;
+}
+
+.me1, .me2 {
+    font-size: 28px;
+    font-family: Helevetica, "Times New Roman", sans-serif;
+}
