@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 /* 
 * {
   border: 1px solid red;
-} */
+} 
+*/
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -19,7 +24,7 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: rgb(194, 192, 192);
 }
 
 input {
@@ -30,34 +35,34 @@ input {
   margin-bottom: 16px;
 }
 
-
 /* MY SOLUTION */
 
 ul {
-  list-style-type: none;  
+  list-style-type: none;
   font-weight: bold;
   font-size: 12px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(122, 122, 122)
+  color: rgb(122, 122, 122);
 }
 
-.header, ul{
+.header,
+ul {
   display: flex;
   justify-content: space-between;
-  
   padding: 0;
   margin: 0;
-  gap: 10px;  
-  }
+  gap: 10px;
+}
 
-  .header {
-    padding: 10px;
-  }
+.header {
+  padding: 10px;
+}
 
-.footer, ul {
+.footer,
+ul {
   display: flex;
   justify-content: space-between;
   padding: 0;
@@ -68,4 +73,15 @@ a {
 .footer {
   padding: 10px;
   background-color: #eeeeee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  padding: 8px;
 }
